@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoInput from './Cfomponents/TodoInput';
+import TodoList from './Cfomponents/TodoLinst';
 
 function App() {
   return (
     <div className="App">
-      doulath
+    <TodoInput/>
+    <TodoList/>
     </div>
   );
 }
